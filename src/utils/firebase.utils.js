@@ -10,13 +10,14 @@ import {
 } from "firebase/firestore";
 import { toast } from "react-toastify";
 
+// Different Firebase Configuration from private repository
 const firebaseConfig = {
-  apiKey: "AIzaSyADKriubumnDOnNYY_pMa9IxIt43pHRaO4",
-  authDomain: "recipe-book-web-app.firebaseapp.com",
-  projectId: "recipe-book-web-app",
-  storageBucket: "recipe-book-web-app.appspot.com",
-  messagingSenderId: "436779686471",
-  appId: "1:436779686471:web:ef360709d41d17d6f16f62",
+  apiKey: "AIzaSyDYmVQsyiCNTBXp3Wcy31YC659SQ-cjfZ4",
+  authDomain: "recipe-book-public.firebaseapp.com",
+  projectId: "recipe-book-public",
+  storageBucket: "recipe-book-public.firebasestorage.app",
+  messagingSenderId: "595518564343",
+  appId: "1:595518564343:web:51babb5231967da021b0f2",
 };
 
 const app = initializeApp(firebaseConfig);
